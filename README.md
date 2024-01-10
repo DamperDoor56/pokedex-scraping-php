@@ -17,9 +17,9 @@ Here's what you need to be able to run this project:
 
 ## 1. Clone the repository
 ```
-git clone https://github.com/DamperDoor56/Web-Scraping-with-PHP.git
+git clone https://github.com/DamperDoor56/pokedex-scraping-php.git
 
-cd Web-Scraping-with-PHP
+cd pokedex-scraping-php
 ```
 
 ## 2. Install composer dependencies
@@ -30,13 +30,6 @@ composer install
 
 ## 3. Initiate the scripts
 ```
-php src/guzzle_requests.php
+php src/scraper.php
 
-php src/goutte_requests.php
-
-php src/goutte_css_requests.php
-
-php src/simplehtmldom_requests.php
-
-php src/panther_requests.php
 ```
